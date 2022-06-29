@@ -1,0 +1,10 @@
+import math
+while True:
+try:
+i,j=map(int,input().split())
+if (math.factorial(i)) % j==0:
+print(str(j)+" divides "+str(i)+"!")
+else:
+print(str(j)+" does not divides "+str(i)+"!")
+except:
+break
